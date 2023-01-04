@@ -6,10 +6,16 @@ export default function Home() {
   return (
     <>
       <Layout>
+
         <p className='text-white'>
-            WIFI
+          Red Wifi: SabbiaGuests 
         </p>
-        <Button buttonText="Menu Principal" buttonUrl="/"/>
+
+        <p className='text-white'>
+          Clave : Sabbia123
+        </p>
+
+        <Button buttonText="Back" buttonUrl="/"/>
       </Layout>
     </>
   );

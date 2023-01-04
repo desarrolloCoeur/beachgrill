@@ -11,20 +11,21 @@ export const Layout = ({children, title}) => {
         <meta name="keywords" content="beachgrill, sabbia" />
       </Head>
 
-      <main className="bg-[#1d1d1b]  ">
-        <div className="flex flex-col items-center h-screen">
+      <main className="flex h-screen items-center justify-center">
+        <div className='flex flex-col items-center justify-center  '>
           <Image
-            className=' mt-5'
+            className='my-5 mx-auto'
             src="/img/logo-beach-grill.webp"
             alt="Beach Grill by SABBIA"
             width={200}
             height={100}
           />
-          <div className='flex flex-col gap-5 justify-center items-center  h-full'>
+          <div className='flex flex-col gap-5 justify-center items-center pb-5'>
             {children}
           </div>
         </div>
       </main>
     </>
+
   );
 }
