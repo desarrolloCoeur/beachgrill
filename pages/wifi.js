@@ -21,7 +21,7 @@ export default function Home() {
           Clave : Sabbia123
         </p>
 
-        <Button buttonText="Back" buttonUrl="/"/>
+        <Button buttonText="Back" buttonUrl="/menu"/>
       </Layout>
     </>
   );
