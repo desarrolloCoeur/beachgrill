@@ -1,9 +1,10 @@
 import Image from 'next/image';
-import { Button } from '../components/Button'
+import { BackButton } from '../components/BackButton'
+
 import { Layout } from '../components/layouts/Layout'
 
 
-export default function Home() {
+export default function WiFi() {
   return (
     <>
       <Layout>
@@ -21,7 +22,7 @@ export default function Home() {
           Clave : Sabbia123
         </p>
 
-        <Button buttonText="Back" buttonUrl="/menu"/>
+        <BackButton/>
       </Layout>
     </>
   );
