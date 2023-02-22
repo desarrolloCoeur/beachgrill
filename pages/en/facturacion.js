@@ -31,7 +31,8 @@ export default function Facturacion() {
 
           Sabbia Beach Club La Cruz  <br></br>
         </p>
-        <Button buttonUrl="https://wa.me/+523221589452" buttonText="WhatsApp" targetWindow="_blank"/>
+        <Button buttonUrl="https://wa.me/+523223234953" buttonText="WhatsApp" targetWindow="_blank"/>
+
 
 
         <BackButtonEn/>

@@ -20,15 +20,15 @@ export default function Facturacion() {
         </ol>
         <p className='text-white text-center max-w-lg mx-5'>
         Favor de enviarnos la informacion completa, de otra manera el proceso de facturacion pudiera prolongarse varios dias.
-        Agradeciendo de antemano sus finas atenciones quedamos atentos para elaborar su factura.
-        Atentamente 
-        Manuel Soto 
-        Atención a clientes
-        Sabbia Beach Club La Cruz
+        Agradeciendo de antemano sus finas atenciones quedamos atentos para elaborar su factura. <br/><br/>
+        Atentamente <br/>
+        Manuel Soto <br/>
+        Atención a clientes <br/>
+        Sabbia Beach Club La Cruz<br/>
 
         </p>
         
-        <Button buttonUrl="https://wa.me/+523221589452" buttonText="WhatsApp" targetWindow="_blank"/>
+        <Button buttonUrl="https://wa.me/+523223234953?text=Hola,%20quiero%20facturar%20mi%20consumo..." buttonText="WhatsApp" targetWindow="_blank"/>
 
 
         <BackButton/>
